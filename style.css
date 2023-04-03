@@ -1,0 +1,55 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  margin-top: 0;
+}
+
+
+.tab-btn {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+
+.tab-btn.active {
+  background-color: #ccc;
+  color: #fff;
+}
+
+
+.content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+.content.active {
+  display: block;
+}
